@@ -1,0 +1,129 @@
+{
+ "experiment": "couchbase_budget",
+ "params": {
+  "k": 100,
+  "budget": 300
+ },
+ "cells": [
+  {
+   "scen": "quota-down",
+   "util": 0.595,
+   "perf": "ramp50",
+   "seed": 9000
+  },
+  {
+   "scen": "quota-down",
+   "util": 0.595,
+   "perf": "ramp50",
+   "seed": 9001
+  },
+  {
+   "scen": "quota-down",
+   "util": 0.595,
+   "perf": "ramp100",
+   "seed": 9000
+  },
+  {
+   "scen": "quota-down",
+   "util": 0.595,
+   "perf": "ramp100",
+   "seed": 9001
+  },
+  {
+   "scen": "quota-down",
+   "util": 0.595,
+   "perf": "ramp150",
+   "seed": 9000
+  },
+  {
+   "scen": "quota-down",
+   "util": 0.595,
+   "perf": "ramp150",
+   "seed": 9001
+  },
+  {
+   "scen": "quota-down",
+   "util": 0.595,
+   "perf": "ramp200",
+   "seed": 9000
+  },
+  {
+   "scen": "quota-down",
+   "util": 0.595,
+   "perf": "ramp200",
+   "seed": 9001
+  },
+  {
+   "scen": "quota-down",
+   "util": 0.595,
+   "perf": "ramp250",
+   "seed": 9000
+  },
+  {
+   "scen": "quota-down",
+   "util": 0.595,
+   "perf": "ramp250",
+   "seed": 9001
+  },
+  {
+   "scen": "scale-out",
+   "util": 0.9,
+   "perf": "ramp50",
+   "seed": 9000
+  },
+  {
+   "scen": "scale-out",
+   "util": 0.9,
+   "perf": "ramp50",
+   "seed": 9001
+  },
+  {
+   "scen": "scale-out",
+   "util": 0.9,
+   "perf": "ramp100",
+   "seed": 9000
+  },
+  {
+   "scen": "scale-out",
+   "util": 0.9,
+   "perf": "ramp100",
+   "seed": 9001
+  },
+  {
+   "scen": "scale-out",
+   "util": 0.9,
+   "perf": "ramp150",
+   "seed": 9000
+  },
+  {
+   "scen": "scale-out",
+   "util": 0.9,
+   "perf": "ramp150",
+   "seed": 9001
+  },
+  {
+   "scen": "scale-out",
+   "util": 0.9,
+   "perf": "ramp200",
+   "seed": 9000
+  },
+  {
+   "scen": "scale-out",
+   "util": 0.9,
+   "perf": "ramp200",
+   "seed": 9001
+  },
+  {
+   "scen": "scale-out",
+   "util": 0.9,
+   "perf": "ramp250",
+   "seed": 9000
+  },
+  {
+   "scen": "scale-out",
+   "util": 0.9,
+   "perf": "ramp250",
+   "seed": 9001
+  }
+ ]
+}

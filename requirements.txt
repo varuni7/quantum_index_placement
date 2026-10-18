@@ -1,0 +1,3 @@
+numpy>=1.26
+dimod>=0.12
+dwave-neal>=0.6

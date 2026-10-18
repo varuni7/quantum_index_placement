@@ -1,0 +1,260 @@
+{
+ "experiment": "couchbase_rebalance",
+ "params": {
+  "scen": "quota-down",
+  "util": 0.765,
+  "budget": 300
+ },
+ "cells": [
+  {
+   "k": 20,
+   "perf": "ramp50",
+   "seed": 9000
+  },
+  {
+   "k": 20,
+   "perf": "ramp50",
+   "seed": 9001
+  },
+  {
+   "k": 20,
+   "perf": "ramp100",
+   "seed": 9000
+  },
+  {
+   "k": 20,
+   "perf": "ramp100",
+   "seed": 9001
+  },
+  {
+   "k": 20,
+   "perf": "ramp150",
+   "seed": 9000
+  },
+  {
+   "k": 20,
+   "perf": "ramp150",
+   "seed": 9001
+  },
+  {
+   "k": 20,
+   "perf": "ramp200",
+   "seed": 9000
+  },
+  {
+   "k": 20,
+   "perf": "ramp200",
+   "seed": 9001
+  },
+  {
+   "k": 20,
+   "perf": "ramp250",
+   "seed": 9000
+  },
+  {
+   "k": 20,
+   "perf": "ramp250",
+   "seed": 9001
+  },
+  {
+   "k": 40,
+   "perf": "ramp50",
+   "seed": 9000
+  },
+  {
+   "k": 40,
+   "perf": "ramp50",
+   "seed": 9001
+  },
+  {
+   "k": 40,
+   "perf": "ramp100",
+   "seed": 9000
+  },
+  {
+   "k": 40,
+   "perf": "ramp100",
+   "seed": 9001
+  },
+  {
+   "k": 40,
+   "perf": "ramp150",
+   "seed": 9000
+  },
+  {
+   "k": 40,
+   "perf": "ramp150",
+   "seed": 9001
+  },
+  {
+   "k": 40,
+   "perf": "ramp200",
+   "seed": 9000
+  },
+  {
+   "k": 40,
+   "perf": "ramp200",
+   "seed": 9001
+  },
+  {
+   "k": 40,
+   "perf": "ramp250",
+   "seed": 9000
+  },
+  {
+   "k": 40,
+   "perf": "ramp250",
+   "seed": 9001
+  },
+  {
+   "k": 60,
+   "perf": "ramp50",
+   "seed": 9000
+  },
+  {
+   "k": 60,
+   "perf": "ramp50",
+   "seed": 9001
+  },
+  {
+   "k": 60,
+   "perf": "ramp100",
+   "seed": 9000
+  },
+  {
+   "k": 60,
+   "perf": "ramp100",
+   "seed": 9001
+  },
+  {
+   "k": 60,
+   "perf": "ramp150",
+   "seed": 9000
+  },
+  {
+   "k": 60,
+   "perf": "ramp150",
+   "seed": 9001
+  },
+  {
+   "k": 60,
+   "perf": "ramp200",
+   "seed": 9000
+  },
+  {
+   "k": 60,
+   "perf": "ramp200",
+   "seed": 9001
+  },
+  {
+   "k": 60,
+   "perf": "ramp250",
+   "seed": 9000
+  },
+  {
+   "k": 60,
+   "perf": "ramp250",
+   "seed": 9001
+  },
+  {
+   "k": 80,
+   "perf": "ramp50",
+   "seed": 9000
+  },
+  {
+   "k": 80,
+   "perf": "ramp50",
+   "seed": 9001
+  },
+  {
+   "k": 80,
+   "perf": "ramp100",
+   "seed": 9000
+  },
+  {
+   "k": 80,
+   "perf": "ramp100",
+   "seed": 9001
+  },
+  {
+   "k": 80,
+   "perf": "ramp150",
+   "seed": 9000
+  },
+  {
+   "k": 80,
+   "perf": "ramp150",
+   "seed": 9001
+  },
+  {
+   "k": 80,
+   "perf": "ramp200",
+   "seed": 9000
+  },
+  {
+   "k": 80,
+   "perf": "ramp200",
+   "seed": 9001
+  },
+  {
+   "k": 80,
+   "perf": "ramp250",
+   "seed": 9000
+  },
+  {
+   "k": 80,
+   "perf": "ramp250",
+   "seed": 9001
+  },
+  {
+   "k": 100,
+   "perf": "ramp50",
+   "seed": 9000
+  },
+  {
+   "k": 100,
+   "perf": "ramp50",
+   "seed": 9001
+  },
+  {
+   "k": 100,
+   "perf": "ramp100",
+   "seed": 9000
+  },
+  {
+   "k": 100,
+   "perf": "ramp100",
+   "seed": 9001
+  },
+  {
+   "k": 100,
+   "perf": "ramp150",
+   "seed": 9000
+  },
+  {
+   "k": 100,
+   "perf": "ramp150",
+   "seed": 9001
+  },
+  {
+   "k": 100,
+   "perf": "ramp200",
+   "seed": 9000
+  },
+  {
+   "k": 100,
+   "perf": "ramp200",
+   "seed": 9001
+  },
+  {
+   "k": 100,
+   "perf": "ramp250",
+   "seed": 9000
+  },
+  {
+   "k": 100,
+   "perf": "ramp250",
+   "seed": 9001
+  }
+ ]
+}

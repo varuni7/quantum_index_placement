@@ -1,0 +1,16 @@
+{
+ "experiment": "couchbase_rebalance",
+ "about": "Install check: one 10 s rebalancing run. Numbers are not meaningful.",
+ "params": {
+  "scen": "quota-down",
+  "util": 0.595,
+  "budget": 10
+ },
+ "cells": [
+  {
+   "k": 20,
+   "perf": "ramp100",
+   "seed": 9000
+  }
+ ]
+}

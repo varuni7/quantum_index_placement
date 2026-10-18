@@ -1,0 +1,30 @@
+{
+ "experiment": "es_qubo",
+ "about": "Shorter verification run (not in the paper): Elasticsearch QUBO on 2 instances, ~15 min. Deterministic.",
+ "params": {
+  "nodes": 8,
+  "reads": 3000,
+  "lamx": 20,
+  "lamdiv": 3000
+ },
+ "cells": [
+  {
+   "k": 64,
+   "backing": 2,
+   "seed": 9000,
+   "reference": {
+    "qubo_sqrt_phi": 0.5017835220230129,
+    "allocator_sqrt_phi": 7.821519962835956
+   }
+  },
+  {
+   "k": 128,
+   "backing": 4,
+   "seed": 9000,
+   "reference": {
+    "qubo_sqrt_phi": 0.768097130026627,
+    "allocator_sqrt_phi": 9.915588298594331
+   }
+  }
+ ]
+}

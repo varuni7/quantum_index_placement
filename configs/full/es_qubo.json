@@ -1,0 +1,386 @@
+{
+ "experiment": "es_qubo",
+ "params": {
+  "nodes": 8,
+  "reads": 3000,
+  "lamx": 20,
+  "lamdiv": 3000
+ },
+ "cells": [
+  {
+   "k": 16,
+   "backing": 2,
+   "seed": 9000
+  },
+  {
+   "k": 16,
+   "backing": 2,
+   "seed": 9001
+  },
+  {
+   "k": 16,
+   "backing": 2,
+   "seed": 9002
+  },
+  {
+   "k": 16,
+   "backing": 2,
+   "seed": 9003
+  },
+  {
+   "k": 16,
+   "backing": 2,
+   "seed": 9004
+  },
+  {
+   "k": 16,
+   "backing": 4,
+   "seed": 9000
+  },
+  {
+   "k": 16,
+   "backing": 4,
+   "seed": 9001
+  },
+  {
+   "k": 16,
+   "backing": 4,
+   "seed": 9002
+  },
+  {
+   "k": 16,
+   "backing": 4,
+   "seed": 9003
+  },
+  {
+   "k": 16,
+   "backing": 4,
+   "seed": 9004
+  },
+  {
+   "k": 16,
+   "backing": 8,
+   "seed": 9000
+  },
+  {
+   "k": 16,
+   "backing": 8,
+   "seed": 9001
+  },
+  {
+   "k": 16,
+   "backing": 8,
+   "seed": 9002
+  },
+  {
+   "k": 16,
+   "backing": 8,
+   "seed": 9003
+  },
+  {
+   "k": 16,
+   "backing": 8,
+   "seed": 9004
+  },
+  {
+   "k": 32,
+   "backing": 2,
+   "seed": 9000
+  },
+  {
+   "k": 32,
+   "backing": 2,
+   "seed": 9001
+  },
+  {
+   "k": 32,
+   "backing": 2,
+   "seed": 9002
+  },
+  {
+   "k": 32,
+   "backing": 2,
+   "seed": 9003
+  },
+  {
+   "k": 32,
+   "backing": 2,
+   "seed": 9004
+  },
+  {
+   "k": 32,
+   "backing": 4,
+   "seed": 9000
+  },
+  {
+   "k": 32,
+   "backing": 4,
+   "seed": 9001
+  },
+  {
+   "k": 32,
+   "backing": 4,
+   "seed": 9002
+  },
+  {
+   "k": 32,
+   "backing": 4,
+   "seed": 9003
+  },
+  {
+   "k": 32,
+   "backing": 4,
+   "seed": 9004
+  },
+  {
+   "k": 32,
+   "backing": 8,
+   "seed": 9000
+  },
+  {
+   "k": 32,
+   "backing": 8,
+   "seed": 9001
+  },
+  {
+   "k": 32,
+   "backing": 8,
+   "seed": 9002
+  },
+  {
+   "k": 32,
+   "backing": 8,
+   "seed": 9003
+  },
+  {
+   "k": 32,
+   "backing": 8,
+   "seed": 9004
+  },
+  {
+   "k": 64,
+   "backing": 2,
+   "seed": 9000
+  },
+  {
+   "k": 64,
+   "backing": 2,
+   "seed": 9001
+  },
+  {
+   "k": 64,
+   "backing": 2,
+   "seed": 9002
+  },
+  {
+   "k": 64,
+   "backing": 2,
+   "seed": 9003
+  },
+  {
+   "k": 64,
+   "backing": 2,
+   "seed": 9004
+  },
+  {
+   "k": 64,
+   "backing": 4,
+   "seed": 9000
+  },
+  {
+   "k": 64,
+   "backing": 4,
+   "seed": 9001
+  },
+  {
+   "k": 64,
+   "backing": 4,
+   "seed": 9002
+  },
+  {
+   "k": 64,
+   "backing": 4,
+   "seed": 9003
+  },
+  {
+   "k": 64,
+   "backing": 4,
+   "seed": 9004
+  },
+  {
+   "k": 64,
+   "backing": 8,
+   "seed": 9000
+  },
+  {
+   "k": 64,
+   "backing": 8,
+   "seed": 9001
+  },
+  {
+   "k": 64,
+   "backing": 8,
+   "seed": 9002
+  },
+  {
+   "k": 64,
+   "backing": 8,
+   "seed": 9003
+  },
+  {
+   "k": 64,
+   "backing": 8,
+   "seed": 9004
+  },
+  {
+   "k": 96,
+   "backing": 2,
+   "seed": 9000
+  },
+  {
+   "k": 96,
+   "backing": 2,
+   "seed": 9001
+  },
+  {
+   "k": 96,
+   "backing": 2,
+   "seed": 9002
+  },
+  {
+   "k": 96,
+   "backing": 2,
+   "seed": 9003
+  },
+  {
+   "k": 96,
+   "backing": 2,
+   "seed": 9004
+  },
+  {
+   "k": 96,
+   "backing": 4,
+   "seed": 9000
+  },
+  {
+   "k": 96,
+   "backing": 4,
+   "seed": 9001
+  },
+  {
+   "k": 96,
+   "backing": 4,
+   "seed": 9002
+  },
+  {
+   "k": 96,
+   "backing": 4,
+   "seed": 9003
+  },
+  {
+   "k": 96,
+   "backing": 4,
+   "seed": 9004
+  },
+  {
+   "k": 96,
+   "backing": 8,
+   "seed": 9000
+  },
+  {
+   "k": 96,
+   "backing": 8,
+   "seed": 9001
+  },
+  {
+   "k": 96,
+   "backing": 8,
+   "seed": 9002
+  },
+  {
+   "k": 96,
+   "backing": 8,
+   "seed": 9003
+  },
+  {
+   "k": 96,
+   "backing": 8,
+   "seed": 9004
+  },
+  {
+   "k": 128,
+   "backing": 2,
+   "seed": 9000
+  },
+  {
+   "k": 128,
+   "backing": 2,
+   "seed": 9001
+  },
+  {
+   "k": 128,
+   "backing": 2,
+   "seed": 9002
+  },
+  {
+   "k": 128,
+   "backing": 2,
+   "seed": 9003
+  },
+  {
+   "k": 128,
+   "backing": 2,
+   "seed": 9004
+  },
+  {
+   "k": 128,
+   "backing": 4,
+   "seed": 9000
+  },
+  {
+   "k": 128,
+   "backing": 4,
+   "seed": 9001
+  },
+  {
+   "k": 128,
+   "backing": 4,
+   "seed": 9002
+  },
+  {
+   "k": 128,
+   "backing": 4,
+   "seed": 9003
+  },
+  {
+   "k": 128,
+   "backing": 4,
+   "seed": 9004
+  },
+  {
+   "k": 128,
+   "backing": 8,
+   "seed": 9000
+  },
+  {
+   "k": 128,
+   "backing": 8,
+   "seed": 9001
+  },
+  {
+   "k": 128,
+   "backing": 8,
+   "seed": 9002
+  },
+  {
+   "k": 128,
+   "backing": 8,
+   "seed": 9003
+  },
+  {
+   "k": 128,
+   "backing": 8,
+   "seed": 9004
+  }
+ ]
+}

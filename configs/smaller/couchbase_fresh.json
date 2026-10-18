@@ -1,0 +1,37 @@
+{
+ "experiment": "couchbase_fresh",
+ "about": "Shorter verification run (not in the paper): 3 fresh-placement instances, ~30 min.",
+ "params": {
+  "nodes": 6,
+  "budget": 300
+ },
+ "cells": [
+  {
+   "k": 40,
+   "skew": 200,
+   "seed": 9002,
+   "reference": {
+    "planner": 0.004631577066561626,
+    "qubo": 0.0004401318582951461
+   }
+  },
+  {
+   "k": 60,
+   "skew": 200,
+   "seed": 9000,
+   "reference": {
+    "planner": 0.0025482903747984,
+    "qubo": 0.0003616540971879125
+   }
+  },
+  {
+   "k": 100,
+   "skew": 200,
+   "seed": 9001,
+   "reference": {
+    "planner": 0.0018753663719800373,
+    "qubo": 0.00023905529938345955
+   }
+  }
+ ]
+}

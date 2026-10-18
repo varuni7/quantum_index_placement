@@ -1,0 +1,28 @@
+{
+ "experiment": "es_allocator",
+ "about": "Shorter verification run (not in the paper): Elasticsearch allocator on the same 2 instances; needs the harness.",
+ "params": {
+  "nodes": 8,
+  "restarts": 2
+ },
+ "cells": [
+  {
+   "k": 64,
+   "backing": 2,
+   "seed": 9000,
+   "reference": {
+    "qubo_sqrt_phi": 0.5017835220230129,
+    "allocator_sqrt_phi": 7.821519962835956
+   }
+  },
+  {
+   "k": 128,
+   "backing": 4,
+   "seed": 9000,
+   "reference": {
+    "qubo_sqrt_phi": 0.768097130026627,
+    "allocator_sqrt_phi": 9.915588298594331
+   }
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "experiment": "couchbase_rebalance",
+ "about": "Shorter verification run (not in the paper): one K=100 instance per cluster change, ~30 min.",
+ "params": {
+  "budget": 300
+ },
+ "cells": [
+  {
+   "scen": "quota-down",
+   "util": 0.595,
+   "k": 100,
+   "perf": "ramp50",
+   "seed": 9000,
+   "reference": {
+    "planner": 0.05756783402894801,
+    "qubo": 0.0419032501100174,
+    "planner_moved_pct": 6.899052826704082,
+    "qubo_moved_pct": 2.720925757829394
+   }
+  },
+  {
+   "scen": "quota-up",
+   "util": 1.35,
+   "k": 100,
+   "perf": "ramp50",
+   "seed": 9000,
+   "reference": {
+    "planner": 0.05437361013117287,
+    "qubo": 0.04163819712157467,
+    "planner_moved_pct": 7.660782306581138,
+    "qubo_moved_pct": 2.773168112502376
+   }
+  },
+  {
+   "scen": "scale-out",
+   "util": 0.9,
+   "k": 100,
+   "perf": "ramp150",
+   "seed": 9000,
+   "reference": {
+    "planner": 0.09426703167046928,
+    "qubo": 0.0880228954669889,
+    "planner_moved_pct": 15.399567739530763,
+    "qubo_moved_pct": 11.182724610497662
+   }
+  }
+ ]
+}
